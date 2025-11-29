@@ -1,0 +1,165 @@
+/* ==== GENERAL ==== */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ==== NAVBAR ==== */
+header{
+    background: #222;
+    color: white;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li{
+    margin-left: 20px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover{
+    color: #00bcd4;
+}
+
+/* ==== HOME ==== */
+.home-section{
+    background: linear-gradient(120deg, #00bcd4, #4caf50);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.home-section .highlight{
+    color: #ffeb3b;
+}
+
+button{
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background: #fff;
+    color: #333;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #222;
+    color: #fff;
+}
+
+/* ==== ABOUT ==== */
+
+.about-section, .projects-section, .contact-section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #222;
+}
+
+/* ==== PROJECTS ==== */
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.project-card{
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+/* ==== CONTACT ==== */
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    max-width: 400px;
+    margin: auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+textarea {
+  resize: none;
+  height: 100px;
+}
+
+footer {
+  background: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+
+
